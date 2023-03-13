@@ -30,6 +30,7 @@ app.use("/api/v1/bootcamps", bootcamps);
 // Error handler Middleware should be after routers
 app.use(errorHandler);
 
+
 const PORT = process.env.PORT || 3000;
 
 const server = app.listen(PORT, () => {
